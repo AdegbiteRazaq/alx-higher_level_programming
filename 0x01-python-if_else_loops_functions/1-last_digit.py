@@ -3,8 +3,8 @@ import random
 number = random.randint(-10000, 10000)
 a = 'less'
 if (number < 0):
-    number = number * -1
-    lastdigit = -(number % 10)
+    numberused = number * -1
+    lastdigit = -(numberused % 10)
 else:
     lastdigit = number % 10
 
